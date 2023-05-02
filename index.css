@@ -1,0 +1,121 @@
+body {
+    background-image: url(images/Cynotype\ 5\ copy.png);
+    background-repeat: none;
+    cursor: none !important;
+}
+
+a {
+    text-decoration: none;
+
+
+}
+
+a:hover {
+    cursor: none !important;
+}
+
+.cursor {
+    position: fixed;
+    top: 100px;
+    left: 100px;
+    width: 20px;
+    height: 20px;
+    pointer-events: none;
+    border-radius: 10px;
+    background-color: white;
+    transition: width ease .4s, height ease .4s, translate ease .4s;
+}
+
+
+.background {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: -1;
+    /* background: red;  */
+    pointer-events: none;
+    object-fit: fill;
+}
+
+
+
+
+
+
+
+
+
+.hnamkna {
+    width: 100%;
+    color: white;
+    font-size: 5vw;
+    text-align: center;
+    margin: -2% 0% 6% 0%;
+}
+
+
+.flex{
+    display: flex;
+}
+
+
+.one{
+    border: solid .1vw darkgreen;
+    padding: .5%;
+    text-align: center;
+    color: white;
+    display: block ;
+    width: 8%;
+    margin-right: 82%;
+    font-size: 1vw;
+    
+} 
+
+.two {
+    border: solid .1vw darkgreen;
+    padding: .5%;
+    align-items: right;
+    text-align: center;
+    color: white;
+    display: block ;
+    font-size: 1vw;
+    width: 10%;
+}
+    
+
+
+.page-link {
+    margin-top: 5%;
+    width: 100%;
+    border: solid .1vw darkgreen;
+}
+
+.page-link:hover {
+    margin-top: 5%;
+    width: 100%;
+    border: solid .1vw white;
+}
+
+.up {
+    color: black;
+    font-size: 1vw;
+    margin: 3% 0% 3% 3%;
+}
+
+
+
+.down {
+    font-size: 1.5vw;
+    font-style: italic;
+    color: white;
+    margin: 0% 0% 3% 3%;
+}
+
+
+
+
+
+
+

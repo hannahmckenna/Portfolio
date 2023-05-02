@@ -1,0 +1,60 @@
+body {
+    background-color: black;
+}
+
+.home {
+  text-align: right;
+  color: white;
+  font-size: .8vw;
+  font-style: italic;
+  border: solid white .1vw;
+  padding: .7%;
+  float: right;
+  width: 8%;
+  text-align: center;
+  margin: 2% 5% 0% 0%;
+}
+
+.text {
+    opacity: 70;
+    border: solid yellowgreen;
+    color: white;
+  /*   width: 400px; */
+    padding: 0 .5em;
+    height: 100px;
+    letter-spacing: -3px;
+    line-height: 0;
+    font-size: 30px;
+    text-align: center;
+    font-weight: lighter;
+  }
+  
+  .draggable {
+    position: absolute;
+  /*   border: 2px solid black; */
+    overflow: hidden;
+    box-shadow: 10px 10px 20px 0px rgb(20, 20, 26);
+    transition: box-shadow ease .3s, translate ease .3s;
+  }
+
+  .hnamkna {
+    width: 100%;
+    color: white;
+    font-size: 3vw;
+    text-align: center;
+    margin: -1.5% 0% 0% 0%;
+}
+
+.what {
+    color: white;
+    width: 90%;
+    font-size: 2vw;
+    margin: 10% 0% 0% 5%;
+}
+
+.what-1 {
+  width: 90%;
+  color: white;
+  font-size: 2vw;
+  margin: 5% 0% 0% 5%;
+}

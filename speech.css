@@ -1,0 +1,105 @@
+
+body{
+    background-image: url(images/speech-bg.png);
+    background-color: black;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+  .hnamkna {
+    width: 100%;
+    color: white;
+    font-size: 3vw;
+    text-align: center;
+    margin: -1.5% 0% 0% 0%;
+    z-index: 10;
+    position: relative;
+
+}
+
+
+
+.title-main {
+    padding: 44% 0% 10% 0%;
+    display:flex;
+    position: sticky;
+    top: 0;
+    z-index: 0;
+}
+
+  .title-disorder {
+    position: fixed;
+    width: 96.8%;
+    border: solid yellowgreen .1vw;
+    padding: .3% 1% .3% 1%;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 0;
+
+  }
+  .home {
+    text-align: right;
+    color: white;
+    font-size: .8vw;
+    font-style: italic;
+    border: solid white .1vw;
+    padding: .7%;
+    float: right;
+    width: 8%;
+    text-align: center;
+    margin: 2% 2% 0% 0%;
+  }
+
+  .title {
+      width: 35%;
+      margin: 41% 0% 5% 2%;
+      color: white;
+      font-size: 3vw;
+      font-style: italic;
+      font-weight: lighter;
+  }
+
+  .explaination-text {
+    width: 25%;
+    margin: 2% 0% 5% 2%;
+    color: white;
+    font-size: 1.2vw;
+    line-height: 150%;
+  }
+
+
+  .gif-container {
+    margin: 8% 0% 3% 2%;
+    width: 135%;
+  }
+
+  .gif-1 {
+    width: 10.32%;
+    float: left;
+    margin: 0% .5% 0% .5%;
+  }
+
+  .gif-2 {
+    width: 30%;
+    float: left;  
+
+  }
+
+.book-img {
+  margin-top: -20%;
+}
+
+
+  .layout-book {
+    position: relative;
+    width: 60%;
+    margin: 0% 0% 1% 35%;
+  }
+ 
+
